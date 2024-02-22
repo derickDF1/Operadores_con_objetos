@@ -54,7 +54,7 @@ namespace Operadores_con_objetos
 
         private void buttonOrdenarApellido_Click(object sender, EventArgs e)
         {
-            personas = personas.OrderBy(p => p.Apellido).ToList(); //p es solamente una variable que nos inventamos
+            personas = personas.OrderBy(p => p.Apellido).ToList(); //p es solamente una variable que nos inventamos.
             Mostrar();
         }
 
